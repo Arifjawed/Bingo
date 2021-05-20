@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color> <!-- its a toolbar primary color -->
+    <color name="colorPrimaryDark">#065808</color> <!-- its a status bar color above the toolbar place -->
+    <color name="colorAccent">#F8F6F7</color> <!-- for other purpose -->
+
+
+    <color name="dshbbtnbgkcolor1">#009688</color>
+    <color name="dshbbtnbgkcolor2">#9C27B0</color>
+    <color name="dshbbtnbgkcolor3">#FFC107</color>
+    <color name="dshbbtnbgkcolor4">#E91E63</color>
+</resources>

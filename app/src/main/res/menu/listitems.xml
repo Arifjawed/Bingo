@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item_about_id"
+        android:title="About"
+        />
+    <item android:id="@+id/item_notification_id"
+        android:title="Notification"
+        />
+    <item android:id="@+id/logout_id"
+        android:title="Logout"
+        />
+
+
+ <!-- &lt;!&ndash;  <item android:id="@+id/search"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search"
+
+        />
+    <item android:id="@+id/call"
+        android:title="Call"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_delete"
+        />   -->
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+   android:background="#85B26D"
+
+    tools:context=".EnterKey">
+    <!--android:background="@drawable/gardianenterkey"-->
+ <!--   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="80dp"
+        android:singleLine="true"
+        android:text="🅻🅾🅶 🅸🅽"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/enterkey_id"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittextcolor"
+        android:elevation="5dp"
+        android:hint="\tEnter Key"
+        android:text=""
+        android:paddingLeft="20dp"
+        android:textColorHint="#A488AC" />
+
+   <!-- <Button
+        android:id="@+id/join_id"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttoncolor"
+        android:elevation="5dp"
+        android:text="Join us"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="22dp" />-->
+        <Button
+            android:id="@+id/join_dashboar_id_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextcolor"
+            android:elevation="5dp"
+            android:text="GO"
+            android:textAllCaps="false"
+            android:textColor="#887878"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+</LinearLayout>

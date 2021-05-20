@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/naviwhatsapp"
+    android:icon="@mipmap/ic_whatsapp"
+    android:title="Whatsapp"
+
+    />
+    <item android:id="@+id/navimap"
+        android:icon="@mipmap/ic_location"
+        android:title="map"
+
+        />
+    <item android:id="@+id/navicontact"
+        android:icon="@mipmap/ic_call"
+        android:title="Contact"
+
+        />
+
+
+</menu>
